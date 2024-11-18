@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+.collapse {
+    transition: height 0.3s ease;
+  }
+  
+.banner-section{
+    background-color: rgb(255, 255, 255);
+}
+.banner-section .container-lg .banner-text .group a{
+    background-color: #DC3545;
+    border: 1px solid #DC3545;
+    color: white;
+}
+.banner-section .container-lg .banner-text .group a:hover{
+    background-color: transparent;
+    color: #141414;
+    border: 1px solid #DC3545;
+}
+
+.banner-section .container-lg .banner-text .group a:last-child{
+    background-color: transparent;
+    color: #141414;
+    border: 1px solid #DC3545;
+}
+.banner-section .container-lg .banner-text .group a:hover:last-child{
+    background-color: #DC3545;
+    border: 1px solid #DC3545;
+    color: white;
+}
+
+
+.about-section .container-lg .row .social-link a i{
+    height: 45px;
+    width: 50px;
+    background-color: #DC3545;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+
+.about-section .container-lg .row .social-link a i:hover{
+    background-color: #fff;
+    color: #DC3545;
+    border: 1px solid #DC3545;
+}
+
+
+
+.services-section .container .row .first-:hover{
+    background-color: #ff3c009a !important;
+    color: #fff !important;
+    transition: background-color 0.6s ease-in-out;
+}
+.services-section .container .row .first-:hover p{
+    color: #fff !important;
+    transition: background-color 0.6s ease-in-out;
+}
+.services-section .container .row .first-:hover i{
+    color: #fff !important;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.services-section .container .row .first- .card-body i{
+    color: #DC3545;
+}
+.services-section .container .row .first- .card-body i:hover{
+    color: #fff;
+}
+.services-section .container .row .first- .card-body p{
+    color: rgb(110, 110, 110);
+    font-size: 18px;
+}
+
+
+
+
+
